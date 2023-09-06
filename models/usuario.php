@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 class usuario{
 
     public $email;
