@@ -39,7 +39,7 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
 <head>
 
 <div class="p-5 mb-4 bg-danger text-white">Sistema AMTU</div>
-<center><img src="a.png.jpg" width="315" height="200"/ ></center>
+<center><img src="https://github.com/BruhSilva2005/projeto-amtu/blob/main/a.png.jpg?raw=true" width="315" height="200"/ ></center>
 
 
     <meta charset="UTF-8">
@@ -52,21 +52,40 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
             font-family: Arial, sans-serif;
             margin: 5px;
             padding: 20px;
-            background-color: #F5FFFA;
-
+           
        }
 
        .form-container {
             max-width: 200px;
             margin: auto;
-            padding: 20px;
+            padding: 50px;
             background-color: #fff;
             border: 1px solid #ddd;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
             
 }
-
+.form-group {
+            margin-bottom: 20px;
+}
+        
+.botao{
+    width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+}
+button {
+            background-color: #1e232c;
+            width: 100%;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+        }
        </style>
 </head>
 
@@ -76,13 +95,13 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
         <h1>Cadastro de Usuario</h1>
 
         <form method = "post">
-        <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-        <label for="senha">Senha:</label><br>
-            <input type="password" id="senha" name="senha" required><br>
-
-            <button type="submit">Login</button>
-            <button type="submit">Cadastrar</button>
+        <label for="email"></label><br>
+            <input class="botao" type="email" id="email" name="email" required placeholder="Digite seu E-mail"><br>
+        <label for="senha"></label><br>
+            <input class="botao" type="password" id="senha" name="senha" required placeholder="Digite sua Senha"><br>
+<br>
+            <button type="submit">Login</button><br>
+            <button type="submit" style="background-color: 	#DCDCDC !important">Cadastrar</button>
 
         </form>
 
