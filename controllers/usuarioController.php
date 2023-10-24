@@ -3,16 +3,18 @@
 require_once $_SERVER['DOCUMENT_ROOT'] . "/models/usuario.php";
 
 
-class UsuarioController{
-     private $usuarioModel;
+class  UsuarioController {
 
-     public function __construct()
-     {
-        $this->usuarioModel = new Usuario();
-     }
+    private $usuarioModel;
 
-     public function listarUsuarios(){
-        return $this->usuarioModel->listar();
-     }
+    public function __construct()
+    {
+        $this->usuarioModel= new UsuarioController();
+    }
+
+    public function listarUsuarios(){
+        return $this ->usuarioModel->listarUsuarios();
+    }
+
 
 }

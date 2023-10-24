@@ -18,13 +18,13 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme = "dark">
             <div class="container">
-                <a class="navbar-brand" href="#">Sistema Biblioteca</a>
+                <a class="navbar-brand" href="#">AMTU Marilia</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Menu</a>
                         <a class="nav-link" href="#">Recarregar</a>
                         <a class="nav-link" href="#">Bloquear</a>
                         <a class="nav-link" href="#">reportar</a>
